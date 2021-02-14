@@ -1,0 +1,61 @@
+/*
+Theme Name: Prosperus Theme
+Theme URI: etcou.ee
+Description: Theme created for prosperus.ee
+Author: NRD Advice
+Template: twentyfifteen
+*/
+
+@import url('../twentyfifteen/style.css');
+@import url(http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,300,700,300italic,400&amp;subset=latin,cyrillic);
+
+body, button, input, select, textarea {
+font-family: 'Roboto', sans-serif;
+/*font-family: 'Roboto Condensed', "Noto Serif", serif;*/
+}
+
+/* Theme customization starts below this line -------- */
+
+/* MY MODIFICATIONS */
+body.page header.entry-header, footer.site-footer {
+display: none;
+}
+
+article.hentry {
+   background-color: rgba(255,255,255,0.6);
+}
+footer.entry-footer {
+   background-color: transparent;
+}
+
+.main-navigation {
+padding-top: 70px
+}
+#lang_sel_list ul a, #lang_sel_list_list ul a:visited {
+background: none
+}
+#lang_sel_list.lang_sel_list_vertical ul {
+border-top: none;
+}
+#lang_sel_list.lang_sel_list_vertical a, #lang_sel_list.lang_sel_list_vertical a:visited {
+border: none;
+}
+#lang_sel_list ul a, #lang_sel_list_list ul a:visited {
+background: none;
+color: white;
+font-size: 1.4rem;
+}
+#lang_sel_list a.lang_sel_sel {
+color: white;
+font-weight: bold;
+}
+#lang_sel_list a.lang_sel_sel:hover {
+color: white;
+}
+#lang_sel_list ul > li {
+background-color: rgba(100,100,100,0.2);
+margin-bottom: 5px !important;
+}
+#lang_sel_list a, #lang_sel_list a:visited {
+color: white;
+}
